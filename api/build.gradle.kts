@@ -12,6 +12,8 @@ dependencies {
 
     implementation(project(":domain"))
 
+    implementation(project(":kafka"))
+
     // test
     implementation("io.mockk:mockk:1.12.0")
 

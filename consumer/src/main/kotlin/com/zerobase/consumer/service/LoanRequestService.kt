@@ -14,7 +14,7 @@ class LoanRequestService(
     }
 
     fun loanRequestToCb() {
-        
+
     }
 
     fun saveLoanReviewData(loanReview: LoanReview) = loanReviewRepository.save(loanReview)
